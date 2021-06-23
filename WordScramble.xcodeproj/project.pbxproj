@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E17EB30268313C50004E98F /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E17EB2F268313C50004E98F /* start.txt */; };
 		9E954B662682F34500F4D684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E954B652682F34500F4D684 /* AppDelegate.swift */; };
 		9E954B682682F34500F4D684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E954B672682F34500F4D684 /* SceneDelegate.swift */; };
 		9E954B6A2682F34500F4D684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E954B692682F34500F4D684 /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E17EB2F268313C50004E98F /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		9E17EB31268334220004E98F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9E954B622682F34500F4D684 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E954B652682F34500F4D684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E954B672682F34500F4D684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		9E954B592682F34500F4D684 = {
 			isa = PBXGroup;
 			children = (
+				9E17EB31268334220004E98F /* README.md */,
 				9E954B642682F34500F4D684 /* WordScramble */,
 				9E954B632682F34500F4D684 /* Products */,
 			);
@@ -62,6 +66,7 @@
 				9E954B6B2682F34600F4D684 /* Assets.xcassets */,
 				9E954B702682F34600F4D684 /* LaunchScreen.storyboard */,
 				9E954B732682F34600F4D684 /* Info.plist */,
+				9E17EB2F268313C50004E98F /* start.txt */,
 				9E954B6D2682F34600F4D684 /* Preview Content */,
 			);
 			path = WordScramble;
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E954B722682F34600F4D684 /* LaunchScreen.storyboard in Resources */,
+				9E17EB30268313C50004E98F /* start.txt in Resources */,
 				9E954B6F2682F34600F4D684 /* Preview Assets.xcassets in Resources */,
 				9E954B6C2682F34600F4D684 /* Assets.xcassets in Resources */,
 			);
